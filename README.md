@@ -1,2 +1,2 @@
-# myfirst
-Just experimenting for now
+# python
+Python programming
