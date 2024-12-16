@@ -9,7 +9,11 @@ import sys
 
 def print_num():
     'Takes input from command line and converts the string to int'
-    n = int(sys.argv[1])
+    if len(sys.argv) > 1:
+        n = int(sys.argv[1])
+    else:
+        print("Enter Seconds as an argument and try again ....")
+        exit(0)
     while n > 0:
         print(n)
         sleep(1)
